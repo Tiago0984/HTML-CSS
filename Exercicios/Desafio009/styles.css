@@ -1,0 +1,10 @@
+@charset "UTF-8";
+body {
+    background-color: black;
+}
+div{
+    margin-left: 550px;
+}
+.letra{
+    color: white
+}

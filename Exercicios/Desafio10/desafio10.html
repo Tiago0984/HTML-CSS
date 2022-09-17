@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 10</title> <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        @font-face{
+            font-family: 'android';
+            src: url(fontes/idroid.otf);
+            font-weight: normal;
+            font-style: normal;
+        }
+        body{
+            background-color: rgba(0, 255, 255, 0.63);
+        }
+        header{
+            background-image: linear-gradient(to top, #1a5c38, #37c777);
+            color: white;
+            text-align: center;
+            margin: auto;
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            margin: 15px;
+        }
+
+        nav{
+            text-align: left;
+        }
+        main{
+            background-color: white;
+            padding: 5px;
+            margin: auto;
+            width: 73.5%;
+        }
+        main > p{
+            text-align: justify;
+            text-indent: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        main > h1{
+            color: #1a5c38;
+            font-family: 'android';
+        }
+        main > h2{
+            text-align: left;
+            background-color: #7cc99f83;
+            color: #1a5c38;
+            font-family: 'android';
+        }
+        picture > p{
+            text-align: justify;
+            text-indent: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .paragrafo{
+            background-color: #7cc99f83;
+            color: #1a5c38;
+            font-family: 'android';
+        }
+        picture > img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        main > img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        main > iframe{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .ultimo{
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #2fa866;
+        }
+        .assunto li{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #C5EBD6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Curiosidades de Tecnologia</h1>
+        <p>Tudo aquilo que você sempre quis saber sobre o mundo <br>Tech, em um único lugar</br></p>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Notícias</a>
+            <a href="#">Curiosidades</a>
+            <a href="#">Fale Conosco</a>
+        </nav>
+    </header>
+    <main>
+            <h1>História do Mascote do Android</h1>
+            <p>Provavelmente você sabe que o sistema operacional Android, mantido pelo Google é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas tavez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.</p>
+            <h2>A primeira versão</h2>
+            <p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado Dan Morrill. Ele conta que abriu o Inkscape (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.
+            </p>
+            <picture>
+                <source media="(max-width: 1050px)" srcset="imagens/dan-droids-pq.png">
+                <source media="(min-width: 1050px)" srcset="imagens/dan-droids.png">
+                <img src="dan-droids.png" alt="">
+            <p>Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os Dandroids.</p>
+            <h2 class="paragrafo">Surge um novo mascote</h2>
+            <p>A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A ilustradora Russa Irina Blok, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.</p>
+            </picture>
+            <picture>
+                <source media="(min-width: 750px)" srcset="imagens/irina-blok-pq.jpg">
+                <source media="(min-width: 1050px)" srcset="imagens/irina-blok.jpg">
+            <img src="imagens/irina-blok.jpg" alt="">
+            <p>A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o Bugdroid, o novo mascote do Android.</p>
+            </picture>
+            <img src="imagens/bugdroid.png" alt="">
+            <p>A principal inspiração para os traços do novo Bugdroid veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do Google e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo, objetivo.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/33JtOASdY8I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h2 class="ultimo"> Quer aprender mais?</h2>
+            <p class="assunto">Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até a 9.0.
+                <li>1.5 - Cupcake</li>
+            </p>
+    </main>
+</body>
+</html>
