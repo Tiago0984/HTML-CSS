@@ -42,6 +42,7 @@ section{
     padding: 30px;
     font-size: 3.2em;
     line-height: 55px;
+    text-align: justify;
 }
 .seção1{
     padding-bottom: 10%;
@@ -56,6 +57,7 @@ section{
     color: white;
     margin-right: 55%;
     padding: 10px;
+    text-align: justify;
 }
 .seção3{
     padding-top: 10%;
