@@ -4,6 +4,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
+html, body{
+    min-height: 98vh;
+}
+
 header{
     background-color: black;
     color: white;
@@ -17,11 +21,11 @@ header{
 }
 
 header h1{
-    font-size: 7em;
     font-family: var(--fonte2);
+    font-size: 8vw;
 }
 header p{
-    padding-top: 15px;
+    padding-bottom: 5px;
     font-family: var(--fonte1);
 }
 header a{
@@ -35,14 +39,14 @@ header a:hover{
 *{
     margin: 0px;
     padding: 0px;
-    font-size: 1em;
 }
 section{
+    font-size: 3.5vw;
     font-family: var(--fonte3);
-    padding: 30px;
-    font-size: 3.2em;
-    line-height: 55px;
-    text-align: justify;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 50px;
 }
 .seção1{
     padding-bottom: 10%;
@@ -52,11 +56,21 @@ section{
     background: black url(imagens/background001.jpg) center center no-repeat fixed;
     background-size: cover;
 }
+.p1{
+    margin-right: 55%;
+}
 .p2{
     background-color: rgba(0, 0, 0, 0.493);
     color: white;
     margin-right: 55%;
     padding: 10px;
+}
+.p3{
+    margin-right: 55%;
+    padding-bottom: 7.5%;
+}
+.p4{
+    margin-right: 55%;
 }
 .seção3{
     padding-top: 10%;
@@ -71,6 +85,12 @@ section{
     color: white;
     margin-right: 55%;
     padding: 5px;
+}
+.p6{
+    margin-right: 55%; 
+}
+.p7{
+    margin-right: 55%;
 }
 .seção5 >p{
     padding-bottom: 10%;
