@@ -20,19 +20,23 @@ html, body{
     background-color: darkgrey;
     font-family: var(--fonte1);
 }
+
 header{
     background-color: black;
     color: white;
     text-align: center;
 }
+
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--fonte2);
 }
+
 header > p{
     padding-bottom: 50px;
 }
+
 a{
     text-decoration: none;
     color: white;
@@ -42,6 +46,7 @@ a{
 a:hover{
     text-decoration: underline;
 }
+
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -49,18 +54,22 @@ section{
     padding-left: 30px;
     font-family: var(--fonte3);
 }
+
 section.normal{
     background-color: white;
     color: black;
 }
+
 section.imagem{
     background-color: rgb(54, 54, 54);
     color: white;
 }
+
 section.imagem > p{
     width: 400px;
     background-color: rgba(0, 0, 0, 0.255);
 }
+
 footer{
     background-color: black;
     text-align: center;
